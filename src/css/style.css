@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.conteiner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+td {
+  border: 1px solid #000;
+  text-align: center;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  font-size: 80px;
+  line-height: 100%;
+}
+
+th{
+  font-size: 20px;
+}
